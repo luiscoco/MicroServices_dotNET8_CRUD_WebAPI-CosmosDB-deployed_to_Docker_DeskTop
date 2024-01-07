@@ -6,10 +6,9 @@
 
 - Install Visual Studio 2022 Community Edition
 
-
 ## 1. Create .NET8 WebAPI CRUD CosmosDB Microservice
 
-
+See this repo: https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-AzureCosmosDB
 
 ## 2. Create the Dockerfile
 
