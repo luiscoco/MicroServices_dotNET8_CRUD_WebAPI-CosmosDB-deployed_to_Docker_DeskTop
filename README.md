@@ -1,4 +1,4 @@
-# How to deploy  to Docker DeskTop a .NET8 WebAPI CRUD CosmosDB Microservice
+# How to deploy  to Docker Desktop a .NET8 WebAPI CRUD CosmosDB Microservice
 
 ## 0. Prerequisites
 
