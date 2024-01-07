@@ -51,6 +51,10 @@ docker login
 docker build -t azurecosmoscrudwebapi .
 ```
 
+We can see the new docker image
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/898a8a67-47fc-4e49-9603-c67777d58c65)
+
 ## 4. Run the Docker container
 
 ```
@@ -62,3 +66,14 @@ We verify the running container docker image
 ```
 docker ps
 ```
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/544b712f-13d1-4d3c-bc50-ae19085bda8d)
+
+We also can see in Docker Desktop the running Docker image
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/4977f5a4-47db-4f2f-b959-d33342485952)
+
+## 5. Verify the application
+
+
+
