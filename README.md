@@ -13,6 +13,12 @@
 
 ## 2. Create the Dockerfile
 
+We add Docker support in the application and automatically Visual Studio creates a Dockerfile
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/0c6d767d-e0f6-4cd5-a3c2-f0830f171ca2)
+
+This is the Dockerfile source code
+
 ```
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
