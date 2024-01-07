@@ -15,6 +15,10 @@
 
 We add Docker support in the application and automatically Visual Studio creates a Dockerfile
 
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/3e557814-6763-4d42-9265-60a6e772f700)
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/af268365-edd9-4d6c-8267-53fd7caba91b)
+
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/0c6d767d-e0f6-4cd5-a3c2-f0830f171ca2)
 
 This is the Dockerfile source code
@@ -81,5 +85,14 @@ We also can see in Docker Desktop the running Docker image
 
 ## 5. Verify the application
 
+We send the Get all items request
 
+http://localhost/api/family
 
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/5f46c76c-d7bd-4b6a-b2dd-8ea66e5d12bc)
+
+We can also send the Get by Id item request
+
+http://localhost/api/family/1?partitionKeyValue=pk001
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-deployed_to_Docker_DeskTop/assets/32194879/fcd9cc0f-14fd-40b4-bd88-f76746841cf4)
