@@ -51,5 +51,14 @@ docker login
 docker build -t azurecosmoscrudwebapi .
 ```
 
-## 
+## 4. Run the Docker container
 
+```
+docker run -d -p 80:8080 --name myapp azurecosmoscrudwebapi
+```
+
+We verify the running container docker image
+
+```
+docker ps
+```
